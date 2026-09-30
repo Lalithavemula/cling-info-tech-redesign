@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #1f2937; /* Dark charcoal */
+    --secondary: #2563eb; /* Blue accent */
+    --accent: #3b82f6; /* Lighter blue */
+    
+    --background: #f8fafc; /* Very light gray / white */
+    --surface: #ffffff; /* White */
+    --surface-light: #f1f5f9; /* Soft gray for cards */
+    
+    --text: #334155; /* Charcoal text */
+    --muted: #64748b; /* Gray text */
+    --border: #e2e8f0; /* Light borders */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-text font-sans antialiased;
+  }
+}
