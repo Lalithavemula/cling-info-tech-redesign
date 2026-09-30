@@ -59,11 +59,6 @@ const Footer = () => {
           <p className="text-white/40 text-sm">
             © 2026 Cling Info Tech Works Private Limited. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm text-white/40">
-            <Link to="#" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link to="#" className="hover:text-white transition-colors">Terms</Link>
-            <Link to="#" className="hover:text-white transition-colors">Cancellation & Refund</Link>
-          </div>
         </div>
       </div>
     </footer>

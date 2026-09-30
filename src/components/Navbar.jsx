@@ -52,12 +52,12 @@ const Navbar = () => {
       path: '/services', 
       hasDropdown: true,
       items: [
-        { name: 'Web Development', path: '/services' },
-        { name: 'Mobile App Development', path: '/services' },
-        { name: 'AI / ML', path: '/services' },
-        { name: 'ERP Solutions', path: '/services' },
-        { name: 'Digital Marketing', path: '/services' },
-        { name: '3D Animation', path: '/services' }
+        { name: 'Web Development', path: '/services/web-development' },
+        { name: 'Mobile App Development', path: '/services/mobile-app-development' },
+        { name: 'AI / ML', path: '/services/ai-ml' },
+        { name: 'ERP Solutions', path: '/services/erp' },
+        { name: 'Digital Marketing', path: '/services/digital-marketing' },
+        { name: '3D Animation', path: '/services/3d-animation' }
       ]
     },
     { 
@@ -65,10 +65,10 @@ const Navbar = () => {
       path: '/solutions', 
       hasDropdown: true,
       items: [
-        { name: 'Web Platforms', path: '/solutions' },
-        { name: 'Mobile Applications', path: '/solutions' },
-        { name: 'AI / ML Solutions', path: '/solutions' },
-        { name: 'ERP / Business Solutions', path: '/solutions' }
+        { name: 'Web Platforms', path: '/solutions/web-solutions' },
+        { name: 'Mobile Applications', path: '/solutions/mobile-solutions' },
+        { name: 'AI / ML Solutions', path: '/solutions/ai-solutions' },
+        { name: 'ERP / Business Solutions', path: '/solutions/business-solutions' }
       ]
     },
     { name: 'Portfolio', path: '/portfolio' },
@@ -79,8 +79,8 @@ const Navbar = () => {
       hasDropdown: true,
       items: [
         { name: 'About Us', path: '/about' },
-        { name: 'Our Journey', path: '/about' },
-        { name: 'Leadership', path: '/about' }
+        { name: 'Our Journey', path: '/about/journey' },
+        { name: 'Leadership', path: '/about/leadership' }
       ]
     },
     { name: 'Contact', path: '/contact' }
